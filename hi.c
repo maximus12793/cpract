@@ -11,6 +11,7 @@ main() {
     printf ( "Line1\nLine2\nLine3\n" );
    
     dog();
+    tellmeloc();
     return 0;
 }
 
@@ -34,8 +35,27 @@ int foo_function(int* x, int* y, int* z) {
   return 0;
 }
 
+int tellmeloc(){
+
+  int random = 0;
+  while (random < 4)
+  {
+  printf("THIS IS THE NUMBER %d copy!!",random);
+
+  
+
+  system("ls -a");
+  system("cp hi.c demo.c",random);
+  random++;
+  }
+  return 0;
+
+}
+
+
 
 
     // $ make
+        // gcc hi.c -o randomtitle 
     // $ ./hello-c-world
     // $ ./hello-cpp-world
