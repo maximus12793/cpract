@@ -53,7 +53,7 @@ int tellmeloc(){
 
 
 
-
+// lool
 /*
 char drive[1];
 printf("Target drive is: ");
